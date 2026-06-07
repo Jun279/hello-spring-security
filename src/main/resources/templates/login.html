@@ -59,5 +59,11 @@
         </div>
     </div>
 </div>
+
+<!--Footer-->
+<footer style="position:fixed; bottom:0; left:0; right:0; text-align:center; padding:10px; color:rgba(255,255,255,0.5); font-size: 0.9em;">
+    <p th:text="${'실습 수행: ' + #temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss') + ' | 학번: 2371390 | 성명: 박제준'}"></p>
+</footer>
+
 </body>
 </html>
